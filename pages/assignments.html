@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/assigments.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script type="module" src="../assets/js/assigments.js"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+    <barra-menu></barra-menu>
+    <div class="assigments">
+        <h2>Your Assigments</h2>
+        <div class="course_warning">
+            <span class="warning-icon">⚠️</span>
+            <p class="warning">Some assignments require course completion before submission.</p>
+        </div>
+        <div class="assigments_filters">
+            <button class="filter-btn active" id="allbtn"><span class="filter-icon">📋</span> All </button>
+            <button class="filter-btn" id="pendingbtn"><span class="filter-icon">⏳</span> Pending </button>
+            <button class="filter-btn" id="completedbtn"><span class="filter-icon">✅</span> Completed </button>
+            <button class="filter-btn" id="overduebtn"><span class="filter-icon">⚠️</span> Overdue </button>
+            <button class="filter-btn" id="lockedbtn"><span class="filter-icon">🔒</span> Locked </button>
+        </div>
+        <div class="assigment_categories">
+            <div class="category_section">
+                <div class="category_header">
+                    <span class="category-icon">💻</span>
+                    <h3 class="category-title">Web Development</h3>
+                </div>
+                <div class="assigments_list web">
+                    <div-web></div-web>
+                    <!-- modal prototipe -->
+                    
+                    <!-- fin del modal -->
+                </div>
+            </div>
+            <div class="category_section">
+                <div class="category_header">
+                    <span class="category-icon">📊</span>
+                    <h3 class="category-title">Data Science</h3>
+                </div>
+                <div class="assigments_list data">
+                    <div-data></div-data>
+                </div>
+            </div>
+            <div class="category_section">
+                <div class="category_header">
+                    <span class="category-icon">🎨</span>
+                    <h3 class="category-title">Design</h3>
+                </div>
+                <div class="assigments_list design">
+                    <div-design></div-design>
+                </div>
+            </div>
+            <div class="category_section">
+                <div class="category_header">
+                    <span class="category-icon">⚡</span>
+                    <h3 class="category-title">Computer Science</h3>
+                </div>
+                <div class="assigments_list science">
+                    <div-science></div-science>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,467 @@
+{
+    "courses": [
+        {
+            "id": "1",
+            "level": "basic",
+            "duration": "2 weeks",
+            "title": "Intro to Programming",
+            "category": "General",
+            "description": "This is the description of the test course",
+            "prerequisites": ["Basic math", "Logical thinking", "Computer literacy"],
+            "outcomes": ["Write simple programs", "Understand basic syntax"],
+            "structure": {
+                "lessons": "12",
+                "assignments": "2",
+                "projects": "3",
+                "exams": 1
+            },
+            "instructor": "1",
+            "price": "10$",
+            "guarantee": "✓ Certificate of completion",
+            "imagen":"../assets/img/img-dashboard-1.jpeg"
+        },
+        {
+            "id": "2",
+            "level": "intermediate",
+            "duration": "3 weeks",
+            "title": "JavaScript Essentials",
+            "category": "Web Development",
+            "description": "Learn how to use JavaScript to build interactive websites.",
+            "prerequisites": ["HTML", "CSS"],
+            "outcomes": ["Create dynamic web apps", "Understand DOM manipulation"],
+            "structure": {
+                "lessons": "14",
+                "assignments": "3",
+                "projects": "2",
+                "exams": 1
+            },
+            "instructor": "2",
+            "price": "20$",
+            "guarantee": "✓ Certificate of completion",
+            "imagen":"../assets/img/img-dashboard-2.jpeg"
+        },
+        {
+            "id": "3",
+            "level": "advanced",
+            "duration": "5 weeks",
+            "title": "Python for Data Analysis",
+            "category": "Data Science",
+            "description": "Use Python to analyze, clean and visualize data.",
+            "prerequisites": ["Intro to Python", "Basic stats"],
+            "outcomes": ["Analyze datasets", "Use pandas, NumPy, matplotlib"],
+            "structure": {
+                "lessons": "20",
+                "assignments": "5",
+                "projects": "3",
+                "exams": 2
+            },
+            "instructor": "3",
+            "price": "30$",
+            "guarantee": "✓ Certificate and portfolio project",
+            "imagen":"../assets/img/img-dashboard-3.jpeg"
+        },
+        {
+            "id": "4",
+            "level": "basic",
+            "duration": "2 weeks",
+            "title": "Version Control with Git",
+            "category": "Tools",
+            "description": "Master version control with Git and GitHub.",
+            "prerequisites": ["None"],
+            "outcomes": ["Use Git CLI", "Collaborate via GitHub"],
+            "structure": {
+                "lessons": "10",
+                "assignments": "2",
+                "projects": "1",
+                "exams": 1
+            },
+            "instructor": "4",
+            "price": "15$",
+            "guarantee": "✓ Certificate of completion",
+            "imagen":"../assets/img/curso4.png"
+        }
+    ],
+    "instructor": [
+    {
+        "id": "1",
+        "name": "Jholver García",
+        "email": "jholver@gmail.com",
+        "nationality": "Colombian-Venezuelan",
+        "biography": "Instructor in general programming with 5 years of experience.",
+        "photo":"../assets/img/fotoperfil.png"
+    },
+    {
+        "id": "2",
+        "name": "Lucía Mendoza",
+        "email": "lucia.mendoza@example.com",
+        "nationality": "Mexican",
+        "biography": "Web developer and JavaScript mentor.",
+        "photo":"../assets/img/fotodeperfil4.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "Carlos Díaz",
+        "email": "carlos.diaz@example.com",
+        "nationality": "Argentinian",
+        "biography": "Data analyst with a passion for teaching Python.",
+        "photo":"../assets/img/fotoperfil3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Sofía Rojas",
+        "email": "sofia.rojas@example.com",
+        "nationality": "Chilean",
+        "biography": "Expert in Git workflows and open source collaboration.",
+        "photo":"../assets/img/fotodeperfil4.jpeg"
+    }
+    ],
+    "content": [
+    {
+        "id": "1",
+        "name": "Python Basics",
+        "topics": {
+            "topic": "Variables and Types",
+            "description": "Understanding how to declare variables and data types in Python."
+        },
+        "description": "Introductory module on Python programming."
+    },
+    {
+        "id": "2",
+        "name": "JavaScript DOM",
+        "topics": {
+            "topic": "DOM Manipulation",
+            "description": "Using JavaScript to interact with HTML elements."
+        },
+        "description": "Hands-on DOM scripting and interactivity."
+    },
+    {
+        "id": "3",
+        "name": "Git Essentials",
+        "topics": {
+            "topic": "Branching",
+            "description": "Creating and merging branches in Git."
+        },
+        "description": "Practical Git commands and workflows."
+    },
+    {
+        "id": "4",
+        "name": "Data Analysis with Pandas",
+        "topics": {
+            "topic": "DataFrames",
+            "description": "Loading and processing tabular data."
+        },
+        "description": "Exploratory data analysis using pandas."
+    }
+    ],
+    "student": [
+        {
+            "id": "1",
+            "name": "Elena Ruiz",
+            "email": "elena.ruiz@example.com",
+            "nationality": "Colombian-Venezuelan",
+            "phone": "123456",
+            "location": "Floridablanca",
+            "programa": "Full Stack Development",
+            "start_date": "2024-10-01",
+            "exp_graduated": "2025-04-01",
+            "comp_courses": "3",
+            "certificates": "Intro to Programming, JavaScript Essentials, Git",
+            "average_grade": "89",
+            "photo": "https://i.pinimg.com/736x/d2/ae/6e/d2ae6e9b6233ad3705aa0be1e1145651.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Juan Pérez",
+            "email": "juanperez@example.com",
+            "nationality": "Mexican",
+            "phone": "123456",
+            "location": "Floridablanca",
+            "programa": "Web Development",
+            "start_date": "2024-11-01",
+            "exp_graduated": "2025-05-01",
+            "comp_courses": "2",
+            "certificates": "JavaScript Essentials, Git",
+            "average_grade": "91",
+            "photo": "https://i.pinimg.com/736x/b0/e1/dc/b0e1dc2fa43cd61922743d9cec8eb970.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Camila Soto",
+            "email": "camilas@example.com",
+            "nationality": "Chilean",
+            "phone": "123456",
+            "location": "Ciudad de Chile",
+            "programa": "Data Science",
+            "start_date": "2025-01-01",
+            "exp_graduated": "2025-06-30",
+            "comp_courses": "1",
+            "certificates": "Intro to Programming",
+            "average_grade": "85",
+            "photo": "https://i.pinimg.com/736x/ed/57/44/ed5744924a84b6c7c261bb1f44fa69f0.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Mateo Ramírez",
+            "email": "mateo.ramirez@example.com",
+            "nationality": "Peruvian",
+            "phone": "123456",
+            "location": "Bogotá",
+            "programa": "Software Engineering",
+            "start_date": "2025-02-01",
+            "exp_graduated": "2025-08-01",
+            "comp_courses": "2",
+            "certificates": "Version Control with Git, JavaScript Essentials",
+            "average_grade": "88",
+            "photo": "https://i.pinimg.com/736x/28/b2/d2/28b2d2ac7710deffdf5f354fe0af71bb.jpg"
+        }
+    ],
+    "enrollments": [
+    {
+        "id": "1",
+        "id_student": "1",
+        "courseCode": "1",
+        "registrationDate": "2024-11-23"
+    },
+    {
+        "id": "2",
+        "id_student": "2",
+        "courseCode": "2",
+        "registrationDate": "2024-12-01"
+    },
+    {
+        "id": "3",
+        "id_student": "3",
+        "courseCode": "3",
+        "registrationDate": "2025-01-15"
+    },
+    {
+        "id": "4",
+        "id_student": "4",
+        "courseCode": "4",
+        "registrationDate": "2025-02-10"
+    },{
+        "id": "5",
+        "id_student": "1",
+        "courseCode": "2",
+        "registrationDate": "2025-03-01"
+    },
+    {
+        "id": "6",
+        "id_student": "2",
+        "courseCode": "3",
+        "registrationDate": "2025-03-05"
+    },
+    {
+        "id": "7",
+        "id_student": "3",
+        "courseCode": "4",
+        "registrationDate": "2025-03-08"
+    },
+    {
+        "id": "8",
+        "id_student": "4",
+        "courseCode": "1",
+        "registrationDate": "2025-03-12"
+    },
+    {
+        "id": "9",
+        "id_student": "1",
+        "courseCode": "3",
+        "registrationDate": "2025-04-02"
+    },
+    {
+        "id": "10",
+        "id_student": "2",
+        "courseCode": "4",
+        "registrationDate": "2025-04-04"
+    },
+    {
+        "id": "11",
+        "id_student": "3",
+        "courseCode": "1",
+        "registrationDate": "2025-04-10"
+    },
+    {
+        "id": "12",
+        "id_student": "4",
+        "courseCode": "2",
+        "registrationDate": "2025-04-15"
+    },
+    {
+        "id": "13",
+        "id_student": "1",
+        "courseCode": "4",
+        "registrationDate": "2025-04-22"
+    },
+    {
+        "id": "14",
+        "id_student": "2",
+        "courseCode": "1",
+        "registrationDate": "2025-04-27"
+    }
+    ],   
+    "task": [
+        {
+        "id": "1",
+        "title": "Build your first Python app",
+        "description": "description of specific task",
+        "id_content": "1",
+        "id_course": "1",
+        "title_course": "Intro to Programming",
+        "type": "Project",
+        "points": "50",
+        "prerequisites": ["Python Setup", "Syntax", "Control Flow"],
+        "attachments": "2",
+        "data": "web",
+        "state": "completed",
+        "process": "100",
+        "date": "2025-01-10"
+        },
+        {
+        "id": "2",
+        "title": "Build a to-do list app",
+        "description": "Use JavaScript to dynamically add/remove items.",
+        "id_content": "2",
+        "id_course": "2",
+        "title_course": "JavaScript Essentials",
+        "type": "Assignment",
+        "points": "30",
+        "prerequisites": ["DOM basics", "Event listeners"],
+        "attachments": "1",
+        "data": "web",
+        "state": "locked",
+        "process": "100",
+        "date": "2025-02-15"
+        },
+        {
+        "id": "3",
+        "title": "Create Git repo",
+        "description": "Initialize a Git repository and push code to GitHub.",
+        "id_content": "3",
+        "id_course": "4",
+        "title_course": "Python for Data Analysis",
+        "type": "Exercise",
+        "points": "20",
+        "prerequisites": ["Git install", "Basic CLI"],
+        "attachments": "1",
+        "data": "science",
+        "state": "locked",
+        "process": "60",
+        "date": "2025-05-15"
+        },
+        {
+        "id": "4",
+        "title": "Analyze CSV file",
+        "description": "Load and summarize a CSV dataset using pandas.",
+        "id_content": "4",
+        "id_course": "3",
+        "title_course": "Python for Data Analysis",
+        "type": "Project",
+        "points": "60",
+        "prerequisites": ["Read CSV", "DataFrame operations"],
+        "attachments": "3",
+        "data": "data",
+        "state": "pending",
+        "process": "0",
+        "date": "2025-06-01"
+        },
+        {
+        "id": "5",
+        "title": "Responsive Layout with Flexbox",
+        "description": "Use Flexbox to create a responsive layout.",
+        "id_content": "2",
+        "id_course": "2",
+        "title_course": "JavaScript Essentials",
+        "type": "Assignment",
+        "points": "40",
+        "prerequisites": ["HTML/CSS Basics"],
+        "attachments": "2",
+        "data": "science",
+        "state": "pending",
+        "process": "50",
+        "date": "2025-05-25"
+        },
+        {
+        "id": "6",
+        "title": "Version Control with Git",
+        "description": "Work with another student on a GitHub project.",
+        "id_content": "3",
+        "id_course": "4",
+        "title_course": "JavaScript Essentials",
+        "type": "Team Project",
+        "points": "70",
+        "prerequisites": ["Pull Requests", "Branching"],
+        "attachments": "1",
+        "data": "design",
+        "state": "locked",
+        "process": "30",
+        "date": "2025-05-20"
+        }
+    ],
+    "toDo": [
+    {
+        "id": "1",
+        "id_task": "1",
+        "id_student": "1",
+        "state": "pending",
+        "process": "80",
+        "date": "2024-11-23"
+    },
+    {
+        "id": "2",
+        "id_task": "2",
+        "id_student": "2",
+        "state": "completed",
+        "process": "100",
+        "date": "2024-12-03"
+    },
+    {
+        "id": "3",
+        "id_task": "3",
+        "id_student": "4",
+        "state": "overdue",
+        "process": "60",
+        "date": "2025-02-15"
+    },
+    {
+        "id": "4",
+        "id_task": "4",
+        "id_student": "3",
+        "state": "locked",
+        "process": "0",
+        "date": "2025-01-20"
+    },
+    {
+        "id": "5",
+        "id_task": "5",
+        "id_student": "2",
+        "state": "pending",
+        "process": "50",
+        "date": "2025-03-20"
+    },
+    {
+        "id": "6",
+        "id_task": "6",
+        "id_student": "1",
+        "state": "locked",
+        "process": "30",
+        "date": "2025-04-10"
+    },
+    {
+        "id": "7",
+        "id_task": "1",
+        "id_student": "2",
+        "state": "completed",
+        "process": "100",
+        "date": "2025-03-12"
+    },
+    {
+        "id": "8",
+        "id_task": "4",
+        "id_student": "4",
+        "state": "pending",
+        "process": "10",
+        "date": "2025-04-13"
+    }
+    ]   
+}

@@ -1,0 +1,12 @@
+:root{
+    --blanco-letrabotonoes: #FFFFFF;
+    --azul-botones: #3498DB;
+    --verde-barraprogreso: #2ECC71;
+    --blancofondoPAGINA: #f4f5f5;
+    --rojo-detalles-texto: #e74c3c;
+    --gris-botones-desactivados: #E1E8ED;
+}
+body{
+    font-family: "Inter";
+    background-color: var(--blancofondoPAGINA);
+}
